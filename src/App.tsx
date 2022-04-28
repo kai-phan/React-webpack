@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from 'src/assets/forge_react.png';
+import { useRoutes } from 'react-router-dom';
 
-const App: React.FC = ({ children }) => {
-  return (
-    <div>
-      <h1>Hoc Webpack</h1>
-      <img src={logo} alt="logo" />
-    </div>
-  );
+import routerConfig from 'src/router.config';
+
+const App: React.FC = () => {
+  const routes = useRoutes(routerConfig);
+
+  return <React.Fragment>{routes}</React.Fragment>;
 };
 
 export default App;
