@@ -18,7 +18,6 @@
     },
     "ecmaVersion": 6,
     "sourceType": "module"
-
   },
   "plugins": [
     "react", "prettier", "unused-imports", "eslint-plugin-typescript"
