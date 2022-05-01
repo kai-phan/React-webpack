@@ -1,9 +1,12 @@
 import React from 'react';
 
+import Container from 'src/containers/Hooks';
+
 const Hooks: React.FC = () => {
   return (
     <div>
-      <h1>Hook</h1>
+      <h1>Hooks</h1>
+      <Container />
     </div>
   );
 };
