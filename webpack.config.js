@@ -5,9 +5,10 @@ const Dotenv = require('dotenv-webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const DashboardPlugin = require('webpack-dashboard/plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
+const WebpackBar = require('webpackbar');
+const EslintWebpackPlugin = require('eslint-webpack-plugin');
 
 const srcPath = path.resolve(__dirname, 'src');
 const publicPath = path.resolve(__dirname, 'public');
@@ -46,7 +47,13 @@ module.exports = async (env, argv) => {
     }),
     new webpack.ProgressPlugin(),
     new ErrorOverlayPlugin(),
-    new DashboardPlugin(),
+    new EslintWebpackPlugin({
+      extensions: ['.ts', '.tsx'],
+      fix: true,
+      failOnWarning: true,
+      failOnError: true,
+    }),
+    new WebpackBar({ name: 'App' }),
   ];
 
   const prodPlugins = [

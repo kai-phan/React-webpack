@@ -1,6 +1,6 @@
 import { DependencyList, EffectCallback, useEffect, useRef } from 'react';
 import { BasicTarget, depsAreSame, getTargetElement } from 'src/utils/helper';
-var a = 1;
+
 const useEffectWithTarget = (
   effect: EffectCallback,
   deps: DependencyList,
