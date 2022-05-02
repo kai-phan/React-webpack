@@ -74,6 +74,7 @@
     "moment": "readonly",
     "global": "readonly",
     "Payload": "readonly",
-    "General": "readonly"
+    "General": "readonly",
+    "FullscreenOptions": "readonly"
   }
 }

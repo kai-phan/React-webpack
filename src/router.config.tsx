@@ -13,6 +13,10 @@ export default [
         path: 'hooks',
         element: loadable(() => import('src/pages/Hooks')),
       },
+      {
+        path: 'integration',
+        element: loadable(() => import('src/pages/Integration')),
+      },
     ],
   },
 ] as RouteObject[];

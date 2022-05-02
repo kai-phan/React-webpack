@@ -2,7 +2,7 @@ import React from 'react';
 
 import Container from 'src/containers/Hooks';
 
-const Hooks: React.FC = () => {
+const Page: React.FC = () => {
   return (
     <div>
       <h1>Hooks</h1>
@@ -11,4 +11,4 @@ const Hooks: React.FC = () => {
   );
 };
 
-export default Hooks;
+export default Page;
