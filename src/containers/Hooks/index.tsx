@@ -5,6 +5,7 @@ import Creation from 'src/hooks/useCreation/example';
 import UpdateEffect from 'src/hooks/useUpdateEffect/example';
 import IsFirstRender from 'src/hooks/useIsFirstRender/example';
 import ForceUpdate from 'src/hooks/useUpdate/example';
+import ControllableValue from 'src/hooks/useControllableValue/example';
 
 const Hooks: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Hooks: React.FC = () => {
       <UpdateEffect />
       <IsFirstRender />
       <ForceUpdate />
+      <ControllableValue />
     </React.Fragment>
   );
 };
