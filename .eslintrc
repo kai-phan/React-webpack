@@ -32,6 +32,7 @@
   },
   "rules": {
     "import/extensions": "off",
+    "no-redeclare": ["off"],
     "react/prop-types": "off",
     "no-param-reassign": "off",
     "jsx-a11y/anchor-is-valid": "off",
