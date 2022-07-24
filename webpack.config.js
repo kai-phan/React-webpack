@@ -87,6 +87,10 @@ module.exports = async (env, argv) => {
               loader: 'sass-loader',
               options: { sourceMap: isDev },
             },
+            {
+              loader: 'postcss-loader',
+              options: { sourceMap: isDev },
+            },
           ],
         },
         {
