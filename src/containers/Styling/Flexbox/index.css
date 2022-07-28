@@ -1,0 +1,28 @@
+.d-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+/*Flex wrap*/
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+.flex-wrap-revert {
+    flex-wrap: wrap-reverse;
+}
+/*Align item*/
+.align-items-center {
+    align-items: center;
+}
+.align-items-baseline {
+    align-items: baseline;
+}
+.align-items-flex-start {
+    align-items: flex-start;
+}
+.align-items-flex-end {
+    align-items: flex-start;
+}

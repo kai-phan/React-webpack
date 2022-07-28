@@ -13,6 +13,10 @@ export default [
         path: 'hooks',
         element: loadable(() => import('src/pages/Hooks')),
       },
+      {
+        path: 'styling',
+        element: loadable(() => import('src/pages/Styling')),
+      },
     ],
   },
 ] as RouteObject[];

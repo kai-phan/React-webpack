@@ -89,7 +89,12 @@ module.exports = async (env, argv) => {
             },
             {
               loader: 'postcss-loader',
-              options: { sourceMap: isDev },
+              options: {
+                sourceMap: isDev,
+                postcssOptions: {
+                  plugins: ['tailwindcss'],
+                },
+              },
             },
           ],
         },
