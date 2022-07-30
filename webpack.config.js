@@ -67,6 +67,7 @@ module.exports = async (env, argv) => {
     output: {
       path: buildPath,
       filename: 'bundle.[hash:6].js',
+      publicPath: '/',
     },
     module: {
       rules: [
