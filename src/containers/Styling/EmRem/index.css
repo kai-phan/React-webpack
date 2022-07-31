@@ -1,0 +1,21 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    font-size: 0.5rem;
+}
+
+.col {
+    padding: 2rem;
+}
+
+.col.col--2em {
+    font-size: 2em;
+}
+
+.col.col--2rem {
+    font-size: 2rem;
+}
+
+.col.col--3rem {
+    font-size: 3rem;
+}

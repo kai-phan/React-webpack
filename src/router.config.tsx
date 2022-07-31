@@ -15,7 +15,16 @@ export default [
       },
       {
         path: 'styling',
-        element: loadable(() => import('src/pages/Styling')),
+        children: [
+          {
+            index: true,
+            element: loadable(() => import('src/pages/Styling')),
+          },
+          {
+            path: 'flex',
+            element: loadable(() => import('src/pages/Styling/Flexbox')),
+          },
+        ],
       },
     ],
   },

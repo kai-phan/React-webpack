@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Flexbox from './Flexbox';
+import EmRem from './EmRem';
 
 const Styling: React.FC = () => {
   return (
     <React.Fragment>
-      <Flexbox />
+      <EmRem />
     </React.Fragment>
   );
 };
