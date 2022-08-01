@@ -26,3 +26,15 @@
 .align-items-flex-end {
     align-items: flex-start;
 }
+/* Flex basis */
+.flex-item-basis {
+    flex-basis: 100px;
+}
+
+.flex-item-grow {
+    flex-grow: 1;
+}
+
+.flex-item-shrink {
+    flex-shrink: 0;
+}

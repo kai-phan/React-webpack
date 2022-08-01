@@ -3,7 +3,7 @@ import React from 'react';
 const AlignItems: React.FC = () => {
   return (
     <div className="mt-8">
-      <div className="font-bold text-blue-500">1. Align-items</div>
+      <div className="font-bold text-blue-500">2. Align-items</div>
 
       <div className="mt-4">
         <ul className="d-flex border align-items-baseline">

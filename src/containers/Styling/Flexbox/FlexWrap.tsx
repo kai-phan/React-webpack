@@ -7,12 +7,12 @@ const FlexWrap: React.FC = () => {
   return (
     <div className="mt-8">
       <div className="font-bold text-blue-500">1. Flex-wrap</div>
-      <div>
+      <div className="space-x-2">
         <button className="btn" onClick={() => setWrap('nowrap')}>
-          nowrap
+          nowrap |
         </button>
         <button className="btn" onClick={() => setWrap('wrap')}>
-          wrap
+          wrap |
         </button>
         <button className="btn" onClick={() => setWrap('wrap-revert')}>
           wrap-reverse
